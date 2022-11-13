@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barlow+Condensed:ital,wght@0,500;0,700;0,800;1,400;1,600&family=Fira+Sans:wght@200;400;800&family=Slabo+27px&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    max-width: 80ch;
+    /*ch */
+    margin: auto;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: x-large;
+}
+
+figure {
+    border: 0px;
+    margin: auto;
+    padding: 4px;
+    display: inline-block;
+
+
+
+}
+.cointainer {
+   margin-right: 1em;
+}
+
+figcaption {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3em;
+    display: block;
+    padding: 1em;
+    font-weight: bolder;
+
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: 20%;
+    margin: auto;
+
+}
+
+.p1 {
+    font-style: italic;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 0px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.box {
+
+    background-color: rgb(37, 33, 33);
+    padding: 30px;
+    height: 60vh;
+    width: 35vw;
+    margin: 2em 3em 2em 3em;
+    border-style: double;
+    box-shadow: bisque;
+    color: white;
+    font-family: 'Slabo 27px', serif;
+    margin-top: 5ch;
+    font-size: 2ch;
+}
+
+blockquote {
+    font-size: 1.8ch;
+    padding: 0.5em 0.5em 0em 1.8em;
+    font-style: italic;
+
+}
+
+mark {
+    background-color: white;
+}
+
+.box-format {
+    margin-left: 2ch;
+}
+
+.table-format {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 30vw;
+    margin: 0cm 1cm 0cm 1cm;
+    padding: 2ch;
+
+}
+
+th,
+td {
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(1) {
+    background-color: black;
+    color: white;
+}
+
+.footer {
+    position: relative;
+    margin: 6ch 0ch;
+    bottom: 0;
+    max-width: 80ch;
+    color: black;
+    text-align: left;
+    font-size: smaller;
+    font-style: italic;
+}
+
+div a {
+    color: blue;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:500px) {
+
+    img {
+
+        max-width: 100%;
+        float: none;
+        margin-left: 0;
+        display: block;
+    }
+
+    main {
+
+        font-size: 10px;
+        background-color: chartreuse;
+    }
+
+    .box {
+        background-color: rgb(78, 59, 59);
+        height: fit-content;
+        width: 35vw;
+        margin: 0em 0.3em 1em 2.5em;
+        border-style: double;
+        box-shadow: bisque;
+        color: white;
+        font-family: 'Slabo 27px', serif;
+        font-size: 2.5em;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 50%;
+        margin: auto;
+        padding: 1ch;
+        font-size: 9px;
+
+    }
+
+    th,
+    td {
+        text-align: left;
+        padding: 8px;
+    }
+
+    blockquote {
+        padding: 0em 0.2em 0em 0em;
+        margin-left: 1em;
+        width: fit-content;
+        font-size: 10px;
+    }
+
+}
